@@ -22,10 +22,13 @@
     [self trailingShortcuts];
     
     // remove auto correction suggestions
-    // self.textField.autocorrectionType = UITextAutocorrectionTypeNo;
+    self.textField.autocorrectionType = UITextAutocorrectionTypeNo;
     
     // remove shortcuts altogether
     // [self removeShortcuts];
+    
+    // bring the textfield into focus
+    [self.textField becomeFirstResponder];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -62,13 +65,13 @@
 - (void)trailingShortcuts {
     
     // create a custom bar button
-    UIBarButtonItem *firstButton = [[UIBarButtonItem alloc]initWithTitle:@"Third" style:UIBarButtonItemStylePlain target:self action:@selector(myThirdShortcut)];
+    UIBarButtonItem *thirdButton = [[UIBarButtonItem alloc]initWithTitle:@"Third" style:UIBarButtonItemStylePlain target:self action:@selector(myThirdShortcut)];
     
     // create another one
-    UIBarButtonItem *secondButton = [[UIBarButtonItem alloc]initWithTitle:@"Fourth" style:UIBarButtonItemStylePlain target:self action:@selector(myFourthShortcut)];
+    UIBarButtonItem *fourthButton = [[UIBarButtonItem alloc]initWithTitle:@"Fourth" style:UIBarButtonItemStylePlain target:self action:@selector(myFourthShortcut)];
     
     // add those buttons to an array
-    NSArray *buttons = @[firstButton, secondButton];
+    NSArray *buttons = @[thirdButton, fourthButton];
     
     // create a group acction button (ridiculous, I know...)
     UIBarButtonItem *groupAction = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:nil];
