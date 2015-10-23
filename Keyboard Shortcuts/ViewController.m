@@ -22,7 +22,7 @@
     [self trailingShortcuts];
     
     // remove auto correction suggestions
-    self.textField.autocorrectionType = UITextAutocorrectionTypeNo;
+    // self.textField.autocorrectionType = UITextAutocorrectionTypeNo;
     
     // remove shortcuts altogether
     // [self removeShortcuts];
@@ -49,7 +49,7 @@
     // add those buttons to an array
     NSArray *buttons = @[firstButton, secondButton];
     
-    // create a group acction button (ridiculous, I know...)
+    // create a group acction button
     UIBarButtonItem *groupAction = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:nil];
     
     // create a bar button group with those buttons
@@ -73,7 +73,7 @@
     // add those buttons to an array
     NSArray *buttons = @[thirdButton, fourthButton];
     
-    // create a group acction button (ridiculous, I know...)
+    // create a group acction button
     UIBarButtonItem *groupAction = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:nil];
     
     // create a bar button group with those buttons
