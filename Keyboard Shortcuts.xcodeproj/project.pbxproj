@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D22706611BDAB1F60004805E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D22706601BDAB1F60004805E /* main.m */; };
+		D22706641BDAB1F60004805E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D22706631BDAB1F60004805E /* AppDelegate.m */; };
+		D22706671BDAB1F60004805E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D22706661BDAB1F60004805E /* ViewController.m */; };
+		D227066A1BDAB1F60004805E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D22706681BDAB1F60004805E /* Main.storyboard */; };
+		D227066C1BDAB1F60004805E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D227066B1BDAB1F60004805E /* Assets.xcassets */; };
+		D227066F1BDAB1F60004805E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D227066D1BDAB1F60004805E /* LaunchScreen.storyboard */; };
+		D227067A1BDAB1F60004805E /* Keyboard_ShortcutsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D22706791BDAB1F60004805E /* Keyboard_ShortcutsTests.m */; };
+		D22706851BDAB1F60004805E /* Keyboard_ShortcutsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D22706841BDAB1F60004805E /* Keyboard_ShortcutsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D22706761BDAB1F60004805E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D22706541BDAB1F60004805E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D227065B1BDAB1F60004805E;
+			remoteInfo = "Keyboard Shortcuts";
+		};
+		D22706811BDAB1F60004805E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D22706541BDAB1F60004805E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D227065B1BDAB1F60004805E;
+			remoteInfo = "Keyboard Shortcuts";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D227065C1BDAB1F60004805E /* Keyboard Shortcuts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Keyboard Shortcuts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D22706601BDAB1F60004805E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D22706621BDAB1F60004805E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D22706631BDAB1F60004805E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D22706651BDAB1F60004805E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D22706661BDAB1F60004805E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D22706691BDAB1F60004805E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D227066B1BDAB1F60004805E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D227066E1BDAB1F60004805E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D22706701BDAB1F60004805E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D22706751BDAB1F60004805E /* Keyboard ShortcutsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Keyboard ShortcutsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D22706791BDAB1F60004805E /* Keyboard_ShortcutsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Keyboard_ShortcutsTests.m; sourceTree = "<group>"; };
+		D227067B1BDAB1F60004805E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D22706801BDAB1F60004805E /* Keyboard ShortcutsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Keyboard ShortcutsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D22706841BDAB1F60004805E /* Keyboard_ShortcutsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Keyboard_ShortcutsUITests.m; sourceTree = "<group>"; };
+		D22706861BDAB1F60004805E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D22706591BDAB1F60004805E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D22706721BDAB1F60004805E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D227067D1BDAB1F60004805E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D22706531BDAB1F60004805E = {
+			isa = PBXGroup;
+			children = (
+				D227065E1BDAB1F60004805E /* Keyboard Shortcuts */,
+				D22706781BDAB1F60004805E /* Keyboard ShortcutsTests */,
+				D22706831BDAB1F60004805E /* Keyboard ShortcutsUITests */,
+				D227065D1BDAB1F60004805E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D227065D1BDAB1F60004805E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D227065C1BDAB1F60004805E /* Keyboard Shortcuts.app */,
+				D22706751BDAB1F60004805E /* Keyboard ShortcutsTests.xctest */,
+				D22706801BDAB1F60004805E /* Keyboard ShortcutsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D227065E1BDAB1F60004805E /* Keyboard Shortcuts */ = {
+			isa = PBXGroup;
+			children = (
+				D22706621BDAB1F60004805E /* AppDelegate.h */,
+				D22706631BDAB1F60004805E /* AppDelegate.m */,
+				D22706651BDAB1F60004805E /* ViewController.h */,
+				D22706661BDAB1F60004805E /* ViewController.m */,
+				D22706681BDAB1F60004805E /* Main.storyboard */,
+				D227066B1BDAB1F60004805E /* Assets.xcassets */,
+				D227066D1BDAB1F60004805E /* LaunchScreen.storyboard */,
+				D22706701BDAB1F60004805E /* Info.plist */,
+				D227065F1BDAB1F60004805E /* Supporting Files */,
+			);
+			path = "Keyboard Shortcuts";
+			sourceTree = "<group>";
+		};
+		D227065F1BDAB1F60004805E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D22706601BDAB1F60004805E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D22706781BDAB1F60004805E /* Keyboard ShortcutsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D22706791BDAB1F60004805E /* Keyboard_ShortcutsTests.m */,
+				D227067B1BDAB1F60004805E /* Info.plist */,
+			);
+			path = "Keyboard ShortcutsTests";
+			sourceTree = "<group>";
+		};
+		D22706831BDAB1F60004805E /* Keyboard ShortcutsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D22706841BDAB1F60004805E /* Keyboard_ShortcutsUITests.m */,
+				D22706861BDAB1F60004805E /* Info.plist */,
+			);
+			path = "Keyboard ShortcutsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D227065B1BDAB1F60004805E /* Keyboard Shortcuts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D22706891BDAB1F60004805E /* Build configuration list for PBXNativeTarget "Keyboard Shortcuts" */;
+			buildPhases = (
+				D22706581BDAB1F60004805E /* Sources */,
+				D22706591BDAB1F60004805E /* Frameworks */,
+				D227065A1BDAB1F60004805E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Keyboard Shortcuts";
+			productName = "Keyboard Shortcuts";
+			productReference = D227065C1BDAB1F60004805E /* Keyboard Shortcuts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D22706741BDAB1F60004805E /* Keyboard ShortcutsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D227068C1BDAB1F60004805E /* Build configuration list for PBXNativeTarget "Keyboard ShortcutsTests" */;
+			buildPhases = (
+				D22706711BDAB1F60004805E /* Sources */,
+				D22706721BDAB1F60004805E /* Frameworks */,
+				D22706731BDAB1F60004805E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D22706771BDAB1F60004805E /* PBXTargetDependency */,
+			);
+			name = "Keyboard ShortcutsTests";
+			productName = "Keyboard ShortcutsTests";
+			productReference = D22706751BDAB1F60004805E /* Keyboard ShortcutsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D227067F1BDAB1F60004805E /* Keyboard ShortcutsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D227068F1BDAB1F60004805E /* Build configuration list for PBXNativeTarget "Keyboard ShortcutsUITests" */;
+			buildPhases = (
+				D227067C1BDAB1F60004805E /* Sources */,
+				D227067D1BDAB1F60004805E /* Frameworks */,
+				D227067E1BDAB1F60004805E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D22706821BDAB1F60004805E /* PBXTargetDependency */,
+			);
+			name = "Keyboard ShortcutsUITests";
+			productName = "Keyboard ShortcutsUITests";
+			productReference = D22706801BDAB1F60004805E /* Keyboard ShortcutsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D22706541BDAB1F60004805E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Pinkstone Pictures LLC";
+				TargetAttributes = {
+					D227065B1BDAB1F60004805E = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					D22706741BDAB1F60004805E = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = D227065B1BDAB1F60004805E;
+					};
+					D227067F1BDAB1F60004805E = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = D227065B1BDAB1F60004805E;
+					};
+				};
+			};
+			buildConfigurationList = D22706571BDAB1F60004805E /* Build configuration list for PBXProject "Keyboard Shortcuts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D22706531BDAB1F60004805E;
+			productRefGroup = D227065D1BDAB1F60004805E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D227065B1BDAB1F60004805E /* Keyboard Shortcuts */,
+				D22706741BDAB1F60004805E /* Keyboard ShortcutsTests */,
+				D227067F1BDAB1F60004805E /* Keyboard ShortcutsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D227065A1BDAB1F60004805E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D227066F1BDAB1F60004805E /* LaunchScreen.storyboard in Resources */,
+				D227066C1BDAB1F60004805E /* Assets.xcassets in Resources */,
+				D227066A1BDAB1F60004805E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D22706731BDAB1F60004805E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D227067E1BDAB1F60004805E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D22706581BDAB1F60004805E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22706671BDAB1F60004805E /* ViewController.m in Sources */,
+				D22706641BDAB1F60004805E /* AppDelegate.m in Sources */,
+				D22706611BDAB1F60004805E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D22706711BDAB1F60004805E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D227067A1BDAB1F60004805E /* Keyboard_ShortcutsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D227067C1BDAB1F60004805E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22706851BDAB1F60004805E /* Keyboard_ShortcutsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D22706771BDAB1F60004805E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D227065B1BDAB1F60004805E /* Keyboard Shortcuts */;
+			targetProxy = D22706761BDAB1F60004805E /* PBXContainerItemProxy */;
+		};
+		D22706821BDAB1F60004805E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D227065B1BDAB1F60004805E /* Keyboard Shortcuts */;
+			targetProxy = D22706811BDAB1F60004805E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D22706681BDAB1F60004805E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D22706691BDAB1F60004805E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D227066D1BDAB1F60004805E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D227066E1BDAB1F60004805E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D22706871BDAB1F60004805E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D22706881BDAB1F60004805E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D227068A1BDAB1F60004805E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Keyboard Shortcuts/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.versluis.Keyboard-Shortcuts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D227068B1BDAB1F60004805E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Keyboard Shortcuts/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.versluis.Keyboard-Shortcuts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D227068D1BDAB1F60004805E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Keyboard ShortcutsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.versluis.Keyboard-ShortcutsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Keyboard Shortcuts.app/Keyboard Shortcuts";
+			};
+			name = Debug;
+		};
+		D227068E1BDAB1F60004805E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Keyboard ShortcutsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.versluis.Keyboard-ShortcutsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Keyboard Shortcuts.app/Keyboard Shortcuts";
+			};
+			name = Release;
+		};
+		D22706901BDAB1F60004805E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Keyboard ShortcutsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.versluis.Keyboard-ShortcutsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Keyboard Shortcuts";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D22706911BDAB1F60004805E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Keyboard ShortcutsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.versluis.Keyboard-ShortcutsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Keyboard Shortcuts";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D22706571BDAB1F60004805E /* Build configuration list for PBXProject "Keyboard Shortcuts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D22706871BDAB1F60004805E /* Debug */,
+				D22706881BDAB1F60004805E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D22706891BDAB1F60004805E /* Build configuration list for PBXNativeTarget "Keyboard Shortcuts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D227068A1BDAB1F60004805E /* Debug */,
+				D227068B1BDAB1F60004805E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D227068C1BDAB1F60004805E /* Build configuration list for PBXNativeTarget "Keyboard ShortcutsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D227068D1BDAB1F60004805E /* Debug */,
+				D227068E1BDAB1F60004805E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D227068F1BDAB1F60004805E /* Build configuration list for PBXNativeTarget "Keyboard ShortcutsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D22706901BDAB1F60004805E /* Debug */,
+				D22706911BDAB1F60004805E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D22706541BDAB1F60004805E /* Project object */;
+}
